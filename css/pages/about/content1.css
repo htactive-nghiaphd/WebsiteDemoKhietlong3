@@ -1,0 +1,43 @@
+#content1 {
+    width: 100%;
+    min-height: auto;
+    display: table;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+}
+h1 {
+    font-size: 20px;
+    padding: 7px 0px 7px 0px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    font-family: tahoma;
+    color: blue;
+}
+p {
+    /* border: solid 4px  rgb(130, 54, 150); */
+    font-family: tahoma;
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 13px;
+}
+#content1 ul {
+    font-family: tahoma;
+    margin-left: 40px;
+    box-sizing: border-box;
+    /* border: solid 4px rgb(247, 172, 33); */
+}
+.test-2  {
+    font-family: tahoma;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+    /* border: solid 4px yellowgreen; */
+}
+h2 {
+    font-family: tahoma;
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}

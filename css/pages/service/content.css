@@ -1,0 +1,146 @@
+#content {
+    border: solid 0px;
+    width: 100%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.col100 {
+    border: solid 0px;
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 100px;
+    box-sizing: border-box;
+    font-family: tahoma
+}
+.box1 {
+    width: 55%;
+    float: left;
+    margin-bottom: 20px;
+}
+.box2 {
+    width: 40%;
+    float: right;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 20px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    color: blue;
+    margin: 1px auto 23px auto;
+    border: solid 0px;
+}
+.box1 img {
+    width: 200px;
+    float: left;
+    margin-right: 22px;
+}
+.linkK {
+    text-decoration: none;
+    color: red;
+}
+.link4 {
+    text-decoration: none;
+    color: rgb(252, 6, 239);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: tahoma;
+    text-align: center;
+    margin-bottom:  5px;
+}
+.box3 {
+    width: 23%;
+    float: left;
+    height: auto;
+    box-sizing: border-box;
+    border: solid 0px rgb(27, 124, 76);
+    margin-right: 16px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 761px) and (max-width: 1023px) 
+{
+    #content {
+        border: solid 0px;
+        width: 100%;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        background-color: white;
+        padding: 10px;
+        min-height: 100px;
+    }
+    .col100 {
+        width: 100%;
+        height: auto;
+    }
+    .box1 {
+        width: 48%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .box2 {
+        width: 48%;
+        float: right;
+        margin-bottom: 20px;
+
+    }
+    .box3 {
+        width: 47%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 760px)
+{
+    #content {
+        width: 100%;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+    }
+    .col100 {
+        width: 100%;
+        height: auto;
+    }
+    .box1 {
+        width: 100%;
+        height: auto;
+    }
+    .box2 {
+        width: 100%;
+        height: auto;
+    }
+    .box3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .col100 {
+        width: 100%;
+        height: auto;
+    }
+    .box1 {
+        width: 100% !important;
+        display: table;
+        border-bottom: solid 0px #103c63;
+        float: left;
+        box-sizing: border-box;
+    }
+    .box1 img {
+        width: 100%;
+    }
+    .box2 {
+        width: 100%;
+    }
+}

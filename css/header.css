@@ -1,0 +1,124 @@
+#header {
+    /* height: 30px; */
+    box-sizing: border-box;
+    background-color: rgb(45, 45, 107);;
+    width: 100%;
+    margin: 0px;
+    padding: 4px 0px 4px 0px;
+    height: auto;
+    display: table;
+    float: left;
+    box-sizing: border-box;
+}
+
+#header1 {
+    width: 50%;
+    float: left;
+    border: solid 0px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-top: 12px;
+}
+#header2 {
+    width:  50%;
+    float: right;
+    box-sizing: border-box;
+    border: solid 0px;
+    /* padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+}
+
+#header span {
+    color: white;
+    font-size: 15px;
+    font-family: tahoma;
+}
+
+.text2 {
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.email {
+    background-image: url(../images/icons/email.png);
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: left bottom;
+}
+.phone {
+    background-image: url(../images/icons/call.png);
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: left bottom;
+}
+#header2 span:hover  {
+    color: rgb(206, 23, 175);
+}
+img {
+    width: 38px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+/* css màn hình table */
+@media screen and (min-width: 761px) and (max-width: 1023px)
+{
+    #header {
+        width: 100%;
+        background-color: rgb(10, 3, 70);
+        box-sizing: border-box;
+    }
+    #header1 {
+        width: 100%;
+        height: auto;
+        display: table;
+        /* border: solid 5px rgb(44, 18, 44); */
+    }
+    #header2 {
+        width: 100%;
+        height: auto;
+        display: table;
+        padding: 2px 0px 2px 0px;
+        /* border: solid 5px rgb(185, 123, 123); */
+    }
+    .header2-sub {
+        width:100%;
+        margin-top: 5px;
+    }
+    img {
+        width: 40px;
+        height: auto;
+    }
+}
+
+/* css màn hình phone */
+@media screen and (max-width: 760px)
+{
+    #header {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #header1 {
+        width: 100%;
+        height: auto;
+        display: table;
+        border: solid 0px;
+    }
+    #header2 {
+        width: 100%;
+        height: auto;
+        display: table;
+        border: solid 0px;
+    }
+    .header2-sub {
+        width: 100%;
+        display: table-caption;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+}
